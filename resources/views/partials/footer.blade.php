@@ -117,7 +117,11 @@
                 </ul>
             
             </div>
+
         </nav>
+
+        <!-- <p>All site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.</p>
+        <p><a href="#">Cookies Settings</a></p> -->
 
         <div>
 

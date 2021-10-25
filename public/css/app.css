@@ -1,48 +1,42 @@
 footer ul {
   list-style: none;
 }
-
 footer ul li > a {
   text-decoration: none;
   color: #858585;
 }
-
 footer #upper-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding: 15px;
+  background-color: darkgrey;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 footer #upper-footer nav {
   display: flex;
   align-content: center;
   flex-basis: 30%;
   padding-left: 20px;
 }
-
 footer #upper-footer nav .col {
   padding: 10px;
 }
-
 footer #upper-footer nav .col h4 {
   color: #fff;
   padding: 10px 0;
 }
-
 footer #upper-footer nav .col li {
   font-size: 0.9rem;
   padding-bottom: 0.5rem;
 }
-
 footer #upper-footer div {
   height: 350px;
   position: relative;
   flex-basis: 50%;
 }
-
 footer #upper-footer div img {
   position: absolute;
   width: 90%;
@@ -50,7 +44,6 @@ footer #upper-footer div img {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
 footer #lower-footer {
   display: flex;
   justify-content: space-between;
@@ -58,7 +51,6 @@ footer #lower-footer {
   padding: 25px 155px;
   background-color: #303030;
 }
-
 footer #lower-footer button {
   padding: 10px;
   background-color: transparent;
@@ -67,24 +59,20 @@ footer #lower-footer button {
   font-weight: 600;
   border: 3.5px solid #0282f9;
 }
-
 footer #lower-footer nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer #lower-footer nav h4 {
   color: #0282f9;
   padding-right: 20px;
 }
-
 footer #lower-footer nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer #lower-footer nav ul .social-logo {
   padding: 5px;
 }
@@ -92,46 +80,37 @@ footer #lower-footer nav ul .social-logo {
 header ul {
   list-style: none;
 }
-
 header ul a {
   color: black;
   text-decoration: none;
 }
-
 header .top-navbar {
   background-color: blue;
 }
-
 header .top-navbar ul {
   display: flex;
   justify-content: flex-end;
 }
-
 header .top-navbar ul li {
   padding-right: 15px;
 }
-
 header .top-navbar ul li a {
   color: white;
   text-transform: uppercase;
   font-size: 0.7rem;
   font-weight: 600;
 }
-
 header .main-navbar {
   background-color: white;
 }
-
 header .main-navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 header .main-navbar ul li {
   padding: 10px;
 }
-
 header .main-navbar ul li a {
   color: black;
   font-weight: 600;
@@ -143,4 +122,3 @@ header .main-navbar ul li a {
   margin: 0;
   box-sizing: border-box;
 }
-
