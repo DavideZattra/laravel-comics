@@ -6,18 +6,23 @@
 
 
 @section('content')
-    <div class="content">
-        <div></div>
-        <h3>current series</h3>
-        <div class="comic-container">
-            @foreach ( $comic_list as $comic)
-                <div class="comic-card">
+    <div class="comic-section">
+        <section id="jumbotron"></section>
+        <section id="main-content">
+            <div class="label">
+                <h4>current series</h4>
+            </div>
+            <div class="comic-container">
+                @foreach ( $comic_list as $comic)
                     <div class="comic-cover">
+                       
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                       
+                        <h5>{{ $comic['title'] }}</h5>
                     </div>
-                    <h5>{{ $comic['title'] }}</h5>
-                </div>
-            @endforeach
-        </div>
+                @endforeach
+            </div>
+            <button>Load more</button>
+        </section>
     </div>
 @endsection

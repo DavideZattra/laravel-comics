@@ -12,6 +12,7 @@ footer #upper-footer {
   overflow: hidden;
   padding: 15px;
   background-color: darkgrey;
+  background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -117,8 +118,61 @@ header .main-navbar ul li a {
   text-transform: uppercase;
 }
 
-.comic-container {
+.comic-section #jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.comic-section #main-content {
+  position: relative;
+  padding: 40px 150px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+.comic-section #main-content .label {
+  position: absolute;
+  top: -12.5px;
+  height: 40px;
+  display: inline-block;
+  background-color: #0282f9;
+  padding: 0 15px;
+}
+.comic-section #main-content .label h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.comic-section #main-content .comic-container {
   display: flex;
+  flex-wrap: wrap;
+}
+.comic-section #main-content .comic-container .comic-cover {
+  flex-basis: 16.6666666667%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.comic-section #main-content .comic-container .comic-cover img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.comic-section #main-content .comic-container .comic-cover p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.comic-section #main-content button {
+  color: #fff;
+  background-color: #0282f9;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 10px 50px;
 }
 
 * {
