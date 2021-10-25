@@ -1,0 +1,55 @@
+header ul {
+  list-style: none;
+}
+
+header ul a {
+  color: black;
+  text-decoration: none;
+}
+
+header .top-navbar {
+  background-color: blue;
+}
+
+header .top-navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .top-navbar ul li {
+  padding-right: 15px;
+}
+
+header .top-navbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+header .main-navbar {
+  background-color: white;
+}
+
+header .main-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .main-navbar ul li {
+  padding: 10px;
+}
+
+header .main-navbar ul li a {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
