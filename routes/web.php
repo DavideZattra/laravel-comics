@@ -12,11 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/characters', function () {
+Route::get('/', function () {
     return view('characters');
 })->name('characters');
 
-Route::get('/', function () {
+Route::get('/comics', function () {
     $comic_list = config('comic_list');
     return view('comics', ['comic_list' => $comic_list] );
 })->name('comics');
@@ -52,3 +52,9 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+// comic single page
+Route::get('/comic', function () {
+    $comic_list = config('comic_list');
+    return view('comic', ['comic' => $comic_list[0]] );
+})->name('comic');

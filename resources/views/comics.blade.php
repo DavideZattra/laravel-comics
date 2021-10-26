@@ -6,7 +6,7 @@
 
 
 @section('content')
-    <div class="comic-section">
+    <div class="comics-section">
         <section id="jumbotron"></section>
         <section id="main-content">
             <div class="label">

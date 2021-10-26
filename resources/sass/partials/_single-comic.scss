@@ -1,0 +1,22 @@
+
+.single-comic{
+
+    #jumbotron{
+        background-image: url("../images/jumbotron.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    
+    .blue-band{
+        position: relative;
+        height: 75px;
+        background-color: $mainBlueColor;
+        figure{
+            position: absolute;
+            bottom: 20px;
+            left: 30%;
+            transform: translateX(-50%);
+        }
+    }
+}

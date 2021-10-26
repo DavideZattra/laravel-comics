@@ -144,19 +144,19 @@ header .main-navbar ul li.searchbar input {
   text-align: end;
 }
 
-.comic-section #jumbotron {
+.comics-section #jumbotron {
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
   background-repeat: no-repeat;
   height: 400px;
 }
-.comic-section #main-content {
+.comics-section #main-content {
   position: relative;
   padding: 40px 150px;
   background-color: #1c1c1c;
   color: #fff;
 }
-.comic-section #main-content .label {
+.comics-section #main-content .label {
   position: absolute;
   top: -12.5px;
   height: 40px;
@@ -164,21 +164,21 @@ header .main-navbar ul li.searchbar input {
   background-color: #0282f9;
   padding: 0 15px;
 }
-.comic-section #main-content .label h4 {
+.comics-section #main-content .label h4 {
   font-size: 1rem;
   text-transform: uppercase;
   line-height: 40px;
 }
-.comic-section #main-content .comic-container {
+.comics-section #main-content .comic-container {
   display: flex;
   flex-wrap: wrap;
 }
-.comic-section #main-content .comic-container .comic-cover {
+.comics-section #main-content .comic-container .comic-cover {
   flex-basis: 16.6666666667%;
   padding: 10px;
   margin-bottom: 15px;
 }
-.comic-section #main-content .comic-container .comic-cover img {
+.comics-section #main-content .comic-container .comic-cover img {
   width: 100%;
   height: 150px;
   -o-object-fit: cover;
@@ -186,11 +186,11 @@ header .main-navbar ul li.searchbar input {
   -o-object-position: top;
      object-position: top;
 }
-.comic-section #main-content .comic-container .comic-cover p {
+.comics-section #main-content .comic-container .comic-cover p {
   font-size: 0.8rem;
   font-weight: 600;
 }
-.comic-section #main-content button {
+.comics-section #main-content button {
   color: #fff;
   background-color: #0282f9;
   border: none;
@@ -209,4 +209,22 @@ header .main-navbar ul li.searchbar input {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.single-comic #jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.single-comic .blue-band {
+  position: relative;
+  height: 75px;
+  background-color: #0282f9;
+}
+.single-comic .blue-band figure {
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+  transform: translateX(-50%);
 }
