@@ -51,7 +51,7 @@
                         </p>
                     </div>
                     <div class="writers">
-                        <h5>written by:</h5>
+                        <h5>Written by:</h5>
                         <p>
                             @foreach ($comic["writers"] as $writer)
 
@@ -82,6 +82,6 @@
             
             
         </div>
-        @dump($comic)
+        
     </div>
 @endsection

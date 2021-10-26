@@ -30,13 +30,15 @@
             .left-side{
                 
                 padding-right: 25px;
+                padding-bottom: 25px;
 
                 .availability{
                     display: flex;
                     background-color: $availableColor;
-                    color: lighten($availableColor, $amount: 30%);
+                    color: rgba($color: #fff, $alpha: .8);
                     border-bottom: 0.5px solid black ;
                     justify-content: space-between;
+                    margin: 15px 0;
                     
                     .status{
                         display: flex;
@@ -66,27 +68,68 @@
         .comic-spec{
             display:flex;
 
-            .left-side,
-            .right-side{
-                flex-basis: calc(100% / 2);
-                a{
-                    color: mainBlueColor;
-                    text-decoration: none;
-                }
+            h2{
+                padding: 50px 0;
+                border-bottom: 1px solid lightgrey;
 
             }
+
+            a{
+                color: $mainBlueColor;
+                text-decoration: none;
+            }
+
+            p{
+                text-align: end;
+                
+            }
+            
             
             .left-side{
-
+                flex-basis: calc(100% / 2);
+                padding-right: 7.5px;
                 div{
                     display: flex;
-    
+                    justify-content: space-between;
+                    padding: 20px 0;
+                    border-bottom: 1px solid lightgrey;
+
+
                     h5{
-                        display: inline-block;
-                        width: 100px;
+                        
+                        flex-basis: 110px;
+                    }
+
+                    p{
+                        flex-basis: calc(100% - 110px);
+                        font-size: 0.8rem;
+                        font-weight: 600;
                     }
                 }
 
+            }
+
+            .right-side{
+                flex-basis: calc(100% / 2);
+                padding-left: 7.5px;
+                
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0;
+
+                    border-bottom: 1px solid lightgrey;
+                    
+                    h5{
+                        
+                        flex-basis: 150px;
+                    }
+
+                    p{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                    }
+                }
             }
             
 

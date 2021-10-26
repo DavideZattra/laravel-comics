@@ -240,13 +240,15 @@ header .main-navbar ul li.searchbar input {
 }
 .single-comic .main-content .comic-description .left-side {
   padding-right: 25px;
+  padding-bottom: 25px;
 }
 .single-comic .main-content .comic-description .left-side .availability {
   display: flex;
   background-color: #55ba59;
-  color: #c2e6c3;
+  color: rgba(255, 255, 255, 0.8);
   border-bottom: 0.5px solid black;
   justify-content: space-between;
+  margin: 15px 0;
 }
 .single-comic .main-content .comic-description .left-side .availability .status {
   display: flex;
@@ -269,21 +271,51 @@ header .main-navbar ul li.searchbar input {
 .single-comic .main-content .comic-spec {
   display: flex;
 }
-.single-comic .main-content .comic-spec .left-side,
-.single-comic .main-content .comic-spec .right-side {
-  flex-basis: 50%;
+.single-comic .main-content .comic-spec h2 {
+  padding: 50px 0;
+  border-bottom: 1px solid lightgrey;
 }
-.single-comic .main-content .comic-spec .left-side a,
-.single-comic .main-content .comic-spec .right-side a {
-  color: mainBlueColor;
+.single-comic .main-content .comic-spec a {
+  color: #0282f9;
   text-decoration: none;
+}
+.single-comic .main-content .comic-spec p {
+  text-align: end;
+}
+.single-comic .main-content .comic-spec .left-side {
+  flex-basis: 50%;
+  padding-right: 7.5px;
 }
 .single-comic .main-content .comic-spec .left-side div {
   display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
 }
 .single-comic .main-content .comic-spec .left-side div h5 {
-  display: inline-block;
-  width: 100px;
+  flex-basis: 110px;
+}
+.single-comic .main-content .comic-spec .left-side div p {
+  flex-basis: calc(100% - 110px);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.single-comic .main-content .comic-spec .right-side {
+  flex-basis: 50%;
+  padding-left: 7.5px;
+}
+.single-comic .main-content .comic-spec .right-side div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
+}
+.single-comic .main-content .comic-spec .right-side div h5 {
+  flex-basis: 150px;
+}
+.single-comic .main-content .comic-spec .right-side div p {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 * {
