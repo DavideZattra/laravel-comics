@@ -5,6 +5,9 @@
 
 @section('content')
     <div class="content">
-        <h1>Collectibles</h1>
+        <div class="comics-section">
+            <section id="jumbotron"></section>
+            
+        </div>
     </div>
 @endsection
