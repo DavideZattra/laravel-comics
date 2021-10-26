@@ -10,7 +10,7 @@ header{
 
     .top-navbar{
 
-        background-color: blue;
+        background-color: $mainBlueColor;
         ul{
             display: flex;
             justify-content: flex-end;
@@ -30,26 +30,55 @@ header{
     }
 
     .main-navbar{
-
+        height: 120px;
         background-color: white;
 
         ul{
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 120px;
 
             li{
-
+                display: inline-block;
                 padding: 10px;
-
+                height: 100%;
+                border-bottom: 4px solid transparent;
+                
+                img{
+                    height: 100%;
+                }
                 a{
+                    display: inline-block;
                     color: black;
                     font-weight: 600;
                     text-transform: uppercase;
+                    height: 100%;
+                    line-height: 96px;
 
+                    
+                }
+                &.active{
+                border-bottom: 4px solid $mainBlueColor;
+                }
+                &.active a{
+                color: $mainBlueColor;
+                }
+                
+                &.searchbar{
+                    display: flex;
+                    align-items: center;
+
+                    input{
+                        border: none;
+                        border-bottom: 2px solid $mainBlueColor;
+                        text-align: end;
+                    }
                 }
             };
             
         }
     }
+
+    
 }

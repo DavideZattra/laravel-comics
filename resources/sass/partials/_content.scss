@@ -64,6 +64,10 @@
             font-size: 0.9rem;
             cursor: pointer;
             padding: 10px 50px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform:translateX(-50%)
         }
     }
 }
