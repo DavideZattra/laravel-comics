@@ -63,6 +63,34 @@
             }
         }
 
+        .comic-spec{
+            display:flex;
+
+            .left-side,
+            .right-side{
+                flex-basis: calc(100% / 2);
+                a{
+                    color: mainBlueColor;
+                    text-decoration: none;
+                }
+
+            }
+            
+            .left-side{
+
+                div{
+                    display: flex;
+    
+                    h5{
+                        display: inline-block;
+                        width: 100px;
+                    }
+                }
+
+            }
+            
+
+        }
         
     }
 }

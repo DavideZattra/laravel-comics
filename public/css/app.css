@@ -178,7 +178,11 @@ header .main-navbar ul li.searchbar input {
   padding: 10px;
   margin-bottom: 15px;
 }
-.comics-section #main-content .comic-container .comic-cover img {
+.comics-section #main-content .comic-container .comic-cover a {
+  color: white;
+  text-decoration: none;
+}
+.comics-section #main-content .comic-container .comic-cover a img {
   width: 100%;
   height: 150px;
   -o-object-fit: cover;
@@ -186,7 +190,7 @@ header .main-navbar ul li.searchbar input {
   -o-object-position: top;
      object-position: top;
 }
-.comics-section #main-content .comic-container .comic-cover p {
+.comics-section #main-content .comic-container .comic-cover a p {
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -261,4 +265,27 @@ header .main-navbar ul li.searchbar input {
 }
 .single-comic .main-content .comic-description .left-side .availability .check p {
   font-weight: 600;
+}
+.single-comic .main-content .comic-spec {
+  display: flex;
+}
+.single-comic .main-content .comic-spec .left-side,
+.single-comic .main-content .comic-spec .right-side {
+  flex-basis: 50%;
+}
+.single-comic .main-content .comic-spec .left-side a,
+.single-comic .main-content .comic-spec .right-side a {
+  color: mainBlueColor;
+  text-decoration: none;
+}
+.single-comic .main-content .comic-spec .left-side div {
+  display: flex;
+}
+.single-comic .main-content .comic-spec .left-side div h5 {
+  display: inline-block;
+  width: 100px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
 }
