@@ -19,4 +19,50 @@
             transform: translateX(-50%);
         }
     }
+
+    .main-content{
+        padding: 50px 175px;
+        
+        .comic-description{
+            
+            display: flex;
+
+            .left-side{
+                
+                padding-right: 25px;
+
+                .availability{
+                    display: flex;
+                    background-color: $availableColor;
+                    color: lighten($availableColor, $amount: 30%);
+                    border-bottom: 0.5px solid black ;
+                    justify-content: space-between;
+                    
+                    .status{
+                        display: flex;
+                        justify-content: space-between;
+                        flex-grow: 1;
+                        padding: 5px;
+                        p{
+                            text-transform: uppercase;
+                            font-weight: 600;
+                        }
+
+                        
+                    }
+                    .check{
+                        padding: 5px;
+                        border-left: 0.5px solid black;
+                        cursor: pointer;
+
+                        p{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
 }

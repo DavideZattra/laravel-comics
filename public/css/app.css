@@ -228,3 +228,37 @@ header .main-navbar ul li.searchbar input {
   left: 30%;
   transform: translateX(-50%);
 }
+.single-comic .main-content {
+  padding: 50px 175px;
+}
+.single-comic .main-content .comic-description {
+  display: flex;
+}
+.single-comic .main-content .comic-description .left-side {
+  padding-right: 25px;
+}
+.single-comic .main-content .comic-description .left-side .availability {
+  display: flex;
+  background-color: #55ba59;
+  color: #c2e6c3;
+  border-bottom: 0.5px solid black;
+  justify-content: space-between;
+}
+.single-comic .main-content .comic-description .left-side .availability .status {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 5px;
+}
+.single-comic .main-content .comic-description .left-side .availability .status p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.single-comic .main-content .comic-description .left-side .availability .check {
+  padding: 5px;
+  border-left: 0.5px solid black;
+  cursor: pointer;
+}
+.single-comic .main-content .comic-description .left-side .availability .check p {
+  font-weight: 600;
+}
