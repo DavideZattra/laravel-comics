@@ -91,6 +91,7 @@ header .top-navbar {
 header .top-navbar ul {
   display: flex;
   justify-content: flex-end;
+  padding: 2.5px;
 }
 header .top-navbar ul li {
   padding-right: 15px;
@@ -98,7 +99,7 @@ header .top-navbar ul li {
 header .top-navbar ul li a {
   color: white;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 header .main-navbar {
@@ -113,9 +114,10 @@ header .main-navbar ul {
 }
 header .main-navbar ul li {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 0;
+  margin: 0 10px;
   height: 100%;
-  border-bottom: 4px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 header .main-navbar ul li img {
   height: 100%;
@@ -129,7 +131,7 @@ header .main-navbar ul li a {
   line-height: 96px;
 }
 header .main-navbar ul li.active {
-  border-bottom: 4px solid #0282f9;
+  border-color: #0282f9;
 }
 header .main-navbar ul li.active a {
   color: #0282f9;
@@ -242,6 +244,9 @@ header .main-navbar ul li.searchbar input {
   padding-right: 25px;
   padding-bottom: 25px;
 }
+.single-comic .main-content .comic-description .left-side h2 {
+  padding-top: 1.5rem;
+}
 .single-comic .main-content .comic-description .left-side .availability {
   display: flex;
   background-color: #55ba59;
@@ -267,6 +272,11 @@ header .main-navbar ul li.searchbar input {
 }
 .single-comic .main-content .comic-description .left-side .availability .check p {
   font-weight: 600;
+}
+.single-comic .main-content .comic-description .right-side h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: right;
 }
 .single-comic .main-content .comic-spec {
   display: flex;

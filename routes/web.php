@@ -54,7 +54,7 @@ Route::get('/shop', function () {
 })->name('shop');
 
 // comic single page
-Route::get('/comic/{id}', function ($id) {
+Route::get('/comics/{id}', function ($id) {
     $comic_list = config('comic_list');
 
     if(is_numeric($id) && ($id < count($comic_list) && $id >= 0)){

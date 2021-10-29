@@ -32,6 +32,9 @@
                 padding-right: 25px;
                 padding-bottom: 25px;
 
+                h2{
+                    padding-top: 1.5rem;
+                }
                 .availability{
                     display: flex;
                     background-color: $availableColor;
@@ -61,6 +64,13 @@
                             font-weight: 600;
                         }
                     }
+                }
+            }
+            .right-side{
+                h3{
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    text-align: right;
                 }
             }
         }

@@ -31,7 +31,7 @@
 
                 </div>
                 <div class="right-side">
-                    
+                    <h3>advertisement</h3>
                     <img src="{{ asset('images/adv.jpg') }}" alt="">
 
                 </div>

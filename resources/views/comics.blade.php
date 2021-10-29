@@ -15,7 +15,7 @@
             <div class="comic-container">
                 @foreach ( $comic_list as $comic)
                     <div class="comic-cover">
-                        <a href="{{url("/comic/$loop->index")}}">
+                        <a href="{{url("/comics/$loop->index")}}">
 
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                             <h5>{{ $comic['title'] }}</h5>
