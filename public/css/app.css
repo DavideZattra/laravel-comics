@@ -234,11 +234,9 @@ header .main-navbar ul li.searchbar input {
   left: 30%;
   transform: translateX(-50%);
 }
-.single-comic .main-content {
-  padding: 50px 175px;
-}
 .single-comic .main-content .comic-description {
   display: flex;
+  padding: 50px 175px 0;
 }
 .single-comic .main-content .comic-description .left-side {
   padding-right: 25px;
@@ -280,6 +278,8 @@ header .main-navbar ul li.searchbar input {
 }
 .single-comic .main-content .comic-spec {
   display: flex;
+  padding: 0 175px 50px;
+  background-color: #f6f6f6;
 }
 .single-comic .main-content .comic-spec h2 {
   padding: 50px 0;

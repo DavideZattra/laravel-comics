@@ -21,11 +21,12 @@
     }
 
     .main-content{
-        padding: 50px 175px;
         
         .comic-description{
             
             display: flex;
+            padding: 50px 175px 0;
+
 
             .left-side{
                 
@@ -77,6 +78,9 @@
 
         .comic-spec{
             display:flex;
+            padding: 0 175px 50px;
+
+            background-color: #f6f6f6;
 
             h2{
                 padding: 50px 0;
