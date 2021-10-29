@@ -84,6 +84,6 @@
             
             
         </div>
-        @dump($comic)
+        
     </div>
 @endsection
