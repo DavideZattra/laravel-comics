@@ -9,9 +9,11 @@
     <div class="single-comic">
         <section id="jumbotron"></section>
         <div class="blue-band">
-            <figure>
+            <div class='figure'>
+                <div class="type">{{$comic["type"]}}</div>
                 <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}">
-            </figure>
+                <div class="view-gallery">view gallery</div>
+            </div>
         </div>
         <div class="main-content">
             <div class="comic-description">
@@ -82,6 +84,6 @@
             
             
         </div>
-        
+        @dump($comic)
     </div>
 @endsection
